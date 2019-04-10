@@ -5,29 +5,29 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="dns-prefetch" href="http://xzfeng.coding.me">
+  <link rel="dns-prefetch" href="http://fengs.club">
   <title>css实现九宫格(一) | 欢迎访问我的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="前段时间，我的 leader Henry在群里面分享了一道一淘的面试题。         题目非常的有趣，忙完前阵的工作之后突然记起，也尝试做了一下。  9个元素，每个50*50px，排成九宫格默认是border颜色为blue，hover到格子上变成red（兼容到IE6）">
 <meta name="keywords" content="css">
 <meta property="og:type" content="article">
 <meta property="og:title" content="css实现九宫格(一)">
-<meta property="og:url" content="http://xzfeng.coding.me/2012/12/14/css-jiugongge/index.html">
+<meta property="og:url" content="http://fengs.club/2012/12/14/css-jiugongge/index.html">
 <meta property="og:site_name" content="欢迎访问我的博客">
 <meta property="og:description" content="前段时间，我的 leader Henry在群里面分享了一道一淘的面试题。         题目非常的有趣，忙完前阵的工作之后突然记起，也尝试做了一下。  9个元素，每个50*50px，排成九宫格默认是border颜色为blue，hover到格子上变成red（兼容到IE6）">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://xzfeng.coding.me/assets/blogImg/jiugongge1.jpg">
-<meta property="og:image" content="http://xzfeng.coding.me/assets/blogImg/jiugongge2.jpg">
-<meta property="og:image" content="http://xzfeng.coding.me/assets/blogImg/jiugongge3.jpg">
-<meta property="og:image" content="http://xzfeng.coding.me/assets/blogImg/jiugongge4.jpg">
-<meta property="og:image" content="http://xzfeng.coding.me/assets/blogImg/jiugongge5.jpg">
-<meta property="og:image" content="http://xzfeng.coding.me/assets/blogImg/jiugongge6.jpg">
-<meta property="og:image" content="http://xzfeng.coding.me/assets/blogImg/jiugongge7.jpg">
+<meta property="og:image" content="http://fengs.club/assets/blogImg/jiugongge1.jpg">
+<meta property="og:image" content="http://fengs.club/assets/blogImg/jiugongge2.jpg">
+<meta property="og:image" content="http://fengs.club/assets/blogImg/jiugongge3.jpg">
+<meta property="og:image" content="http://fengs.club/assets/blogImg/jiugongge4.jpg">
+<meta property="og:image" content="http://fengs.club/assets/blogImg/jiugongge5.jpg">
+<meta property="og:image" content="http://fengs.club/assets/blogImg/jiugongge6.jpg">
+<meta property="og:image" content="http://fengs.club/assets/blogImg/jiugongge7.jpg">
 <meta property="og:updated_time" content="2017-07-28T18:51:08.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="css实现九宫格(一)">
 <meta name="twitter:description" content="前段时间，我的 leader Henry在群里面分享了一道一淘的面试题。         题目非常的有趣，忙完前阵的工作之后突然记起，也尝试做了一下。  9个元素，每个50*50px，排成九宫格默认是border颜色为blue，hover到格子上变成red（兼容到IE6）">
-<meta name="twitter:image" content="http://xzfeng.coding.me/assets/blogImg/jiugongge1.jpg">
+<meta name="twitter:image" content="http://fengs.club/assets/blogImg/jiugongge1.jpg">
   
     <link rel="alternative" href="/atom.xml" title="欢迎访问我的博客" type="application/atom+xml">
   
@@ -316,7 +316,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://xzfeng.coding.me/2012/12/14/css-jiugongge/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://fengs.club/2012/12/14/css-jiugongge/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -521,15 +521,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">笔记</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">旅行</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">coffeescript</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -537,11 +529,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">css3</a>
+                <a href="javascript:void(0)" class="js-tag color3">旧事</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">旧事</a>
+                <a href="javascript:void(0)" class="js-tag color3">coffeescript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">css3</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -561,11 +561,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">安全</a>
+                <a href="javascript:void(0)" class="js-tag color3">主题</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">黑科技</a>
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -574,14 +574,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">octopress</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">主题</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -606,6 +598,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">药别停</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">安全</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">黑科技</a>
               </li>
              
               <li class="article-tag-list-item">
